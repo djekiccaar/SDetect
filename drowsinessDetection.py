@@ -114,7 +114,7 @@ while (True):
     else:
         # sound.stop()
         m = 0;
-        cv2.putText(frame, "Awake driver", (10, height - 20), font, 1, (255, 255, 255), 1, cv2.LINE_AA)
+        cv2.putText(frame, "Awake MMMMM driver", (10, height - 20), font, 1, (255, 255, 255), 1, cv2.LINE_AA)
 
     frame = imutils.resize(frame, width=1200)
     cv2.imshow('Sleep Detection', frame)
